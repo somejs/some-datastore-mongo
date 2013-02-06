@@ -1,10 +1,10 @@
 {
   "name": "some-datastore-mongo",
   "version": "0.3.3",
-  "description": "some datastore",
+  "description": "some mongo datastore",
   "repository": {
     "type": "git",
-    "url": "https://github.com/somejs/some-datastore.git"
+    "url": "https://github.com/somejs/some-datastore-mongo.git"
   },
   "author": {
     "name": "Teh Freak",
@@ -15,6 +15,9 @@
     "test": "mocha --reporter spec"
   },
   "dependencies": {
+    "mongodb": "latest",
+    "some-db": "git://github.com/somejs/some-db.git",
+    "some-model": "git://github.com/somejs/some-model.git"
   },
   "devDependencies": {
     "mocha": "*",
